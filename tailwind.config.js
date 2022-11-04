@@ -6,5 +6,8 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/forms')],
 }
+
+//A plugin that provides a basic reset for form styles that makes form elements easy to override with utilities.
+// require('@tailwindcss/forms'),
