@@ -72,3 +72,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # Create header component
 
 # Create Sign in Sign up and forgot password pages and OAuth components
+
+# Time 2.58.11 Install Firebase and react-toastify and sign up the user
