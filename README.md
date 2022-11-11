@@ -78,3 +78,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # Add the edit functionality to the profile page
 
 # Complete the header component and make it dynamic
+
+# 6:22:16 Create the spinner component https://loading.io/

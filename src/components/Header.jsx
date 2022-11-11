@@ -5,20 +5,16 @@ import { getAuth, onAuthStateChanged } from "firebase/auth";
 import { useEffect } from "react";
 
 export const Header = () => {
-  const [pageSate, setPageState] = useState("sign in");
-
-  const navigate = useNavigate();
-
+  const [pageState, setPageState] = useState("Sign in");
   const location = useLocation();
-
+  const navigate = useNavigate();
   const auth = getAuth();
-
   useEffect(() => {
     onAuthStateChanged(auth, (user) => {
       if (user) {
-        setPageState("profile");
+        setPageState("Profile");
       } else {
-        setPageState("sign in");
+        setPageState("Sign in");
       }
     });
   }, [auth]);
@@ -30,7 +26,7 @@ export const Header = () => {
   }
 
   return (
-    <div className="bg-white border-b shadow-sm sticky top-0 z-50">
+    <div className="bg-white border-b shadow-sm sticky top-0 z-40">
       <header className="flex justify-between items-center px-3 max-w-6xl mx-auto">
         <div>
           <img
@@ -68,7 +64,7 @@ export const Header = () => {
               }`}
               onClick={() => navigate("/profile")}
             >
-              {pageSate}
+              {pageState}
             </li>
           </ul>
         </div>
