@@ -80,3 +80,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # Complete the header component and make it dynamic
 
 # 6:22:16 Create the spinner component https://loading.io/
+
+# 6:36:59 Create the create listing page UI
+
+# 8:19:25 Add functionality including onChange and onSubmit functions to the create listing page
+
+# 10:16:16 Add my listings section to the profile page and create the listingItem component
+
+# 10:53:38 Complete the listingItem component
