@@ -1,7 +1,7 @@
 import { useState } from "react";
 import React from "react";
 
-export default function Createlisting() {
+export default function CreateListing() {
   const [formData, setFormData] = useState({
     type: "rent",
     name: "",
