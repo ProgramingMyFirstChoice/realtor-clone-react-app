@@ -136,6 +136,7 @@ export default function CreateListing() {
       ...formData,
       imgUrls,
       timestamp: serverTimestamp(),
+      //locate the user who create the list
       userRef: auth.currentUser.uid,
     };
     delete formDataCopy.images;
